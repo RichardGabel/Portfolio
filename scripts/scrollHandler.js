@@ -46,6 +46,20 @@ document.querySelectorAll('section').forEach(section => {
     observer.observe(section);
 });
 
+
+// Smooth scroll for navbar links
+document.querySelectorAll("#navbar a").forEach(link => {
+    link.addEventListener("click", function (e) {
+        const href = this.getAttribute("href");
+        if (href && href.startsWith("#")) {
+            const target = document.querySelector(href);
+            if (target) {
+                e.preventDefault();
+                target.scrollIntoView({ behavior: "smooth" });
+            }
+        }
+    });
+});
+
     
   });
-  
