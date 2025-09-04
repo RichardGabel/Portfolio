@@ -15,8 +15,13 @@
 </head>
 <body>
   <header>
-    <h1>Richard Gabel</h1>
-    <p>Computer Engineer | Passionate About Hardware/Software Innovation</p>
+    <div class="header-flex">
+      <img src="assets/profile.jpg" alt="Richard Gabel" class="profile-pic">
+      <div>
+        <h1>Richard Gabel</h1>
+        <p>Computer Engineer | Passionate About Hardware/Software Innovation</p>
+      </div>
+    </div>
   </header>
 
   <nav id="navbar">
@@ -28,9 +33,25 @@
 
   <section id="about" class="intro hidden">
     <h2>About Me</h2>
-    <p>
-      Hello! I'm Richard Gabel, a computer science student passionate about robotics, GPUs, and optimizing computing performance. I enjoy tackling complex technical challenges and building innovative solutions that push the boundaries of what's possible with modern technology.
-    </p>
+    <div class="about-flex">
+      <div>
+        <p>
+          Hello! I'm <span class="accent">Richard Gabel</span>, a Computer Engineering student passionate about hardware and software technologies.
+        </p>
+        <p>
+          I am driven by my curiosity and love for <span class="accent">problem-solving</span> and learning, leading me to take every opportunity I can to expand my skill set. I achieve this through numerous side projects across different fields of Computer Engineering, including <span class="accent">Arduino</span>, <span class="accent">SystemVerilog</span>, <span class="accent">Full Stack development</span>, <span class="accent">Game Design</span>, <span class="accent">AI</span>, and more.
+        </p>
+        <p>
+          One of my favorite things about Computer Engineering is the ability to work on both hardware and software aspects of a project, leading to many opportunities to showcase <span class="accent">creative</span> innovations and solutions. The far-reaching impact of technology on our daily lives begets unique and dynamic ways of applying my skills to help create new experiences for the public.
+        </p>
+        <p>
+          I have always been an <span class="accent">altruist</span>, trying to help those around me, and I see my work as an extension of that. I want to use my skills to help impact the world, whether big or small. My work in the various organizations I am a part of helping to provide <span class="accent">technology education to underprivileged schools</span> in my area and collaborating with my High School to encourage more students to <span class="accent">pursue a college education</span> have demonstrated this, and I don't plan to stop my impact anytime soon.
+        </p>
+        <p>
+          <span class="accent">I am seeking a Summer 2026 internship relating to Computer Engineering fields.</span>
+        </p>
+      </div>
+    </div>
   </section>
 
   <section id="projects" class="projects hidden">
@@ -164,24 +185,20 @@
       </div>
       
       <div class="project-card">
-        <img src="assets/gpu-benchmark.jpg" alt="Performance Optimized GPU" class="project-image">
-        <h3 class="project-title">Performance Optimized GPU Benchmark</h3>
-        <p class="project-description">Designed and implemented a comprehensive benchmark suite to rigorously evaluate GPU performance in parallel computing tasks. Focused on identifying bottlenecks and optimizing kernel execution for maximum throughput.</p>
-        
+        <img src="assets/Omodog.png" alt="Omodog, Unity Game" class="project-image">
+        <h3 class="project-title">Omodog, Unity Game</h3>
+        <p class="project-description">Lead programmer for Omodog, a Unity game focusing on storytelling, unique gameplay, and artistic visuals. You play as a dog who has passed away and must go through the 5 stages of grief in order to return to their owner. Along the way, you'll find other animal spirits who want to help, and others that have been consumed by their grief.</p>
+
         <div class="tech-stack">
           <h4>Technologies Used</h4>
           <div class="project-skills">
             <div class="skill-chip">
-              <img src="assets/cpp-logo.png" alt="C++">
-              <span>C++</span>
+              <img src="assets/unity-logo.png" alt="Unity">
+              <span>Unity</span>
             </div>
             <div class="skill-chip">
-              <img src="assets/python-logo.png" alt="Python">
-              <span>Python</span>
-            </div>
-            <div class="skill-chip">
-              <img src="assets/systemverilog-logo.png" alt="SystemVerilog">
-              <span>SystemVerilog</span>
+              <img src="assets/csharp-logo.png" alt="C#">
+              <span>C#</span>
             </div>
             <div class="skill-chip">
               <img src="assets/git-logo.png" alt="Git">
@@ -191,12 +208,12 @@
         </div>
         
         <div class="project-links">
-          <a href="https://github.com/richardgabel/gpu-benchmark-repo" target="_blank" class="btn">GitHub Repo</a>
+          <a href="https://github.com/richardgabel/Omodog" target="_blank" class="btn">COMING SOON </a>
         </div>
       </div>
       
       <div class="project-card">
-        <img src="assets/portfolio-website.jpg" alt="Portfolio Website" class="project-image">
+        <img src="assets/portfolio-website.png" alt="Portfolio Website" class="project-image">
         <h3 class="project-title">Portfolio Website</h3>
         <p class="project-description">This very website! Built from scratch using modern HTML5, CSS3 for responsive design and visual flair, and vanilla JavaScript for interactive elements like smooth scrolling and form handling.</p>
         
@@ -227,7 +244,7 @@
         </div>
         
         <div class="project-links">
-          <a href="https://github.com/richardgabel/portfolio-repo" target="_blank" class="btn">GitHub Repo</a>
+          <a href="https://github.com/RichardGabel/Portfolio" target="_blank" class="btn">GitHub Repo</a>
         </div>
       </div>
     </div>
@@ -237,7 +254,7 @@
     <h2 style="text-align:center;">Resume</h2>
     <div style="text-align:center;">
       <iframe 
-        src="assets/Richard Gabel Resume CE.pdf" 
+        src="assets/Richard Gabel Resume.pdf" 
         width="100%" 
         height="600px" 
         style="border:1px solid #0f3460; border-radius:10px; background:#222;"
